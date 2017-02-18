@@ -12,16 +12,22 @@
 		ED0684031E5862D70015B48C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0684011E5862D70015B48C /* Main.storyboard */; };
 		ED0684051E5862D70015B48C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0684041E5862D70015B48C /* Assets.xcassets */; };
 		ED0684081E5862D70015B48C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0684061E5862D70015B48C /* LaunchScreen.storyboard */; };
+		ED0684101E587A8B0015B48C /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06840F1E587A8B0015B48C /* CollectionViewController.swift */; };
+		ED0684121E587AC00015B48C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0684111E587AC00015B48C /* TableViewController.swift */; };
+		ED0684141E587C2D0015B48C /* OtherCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0684131E587C2D0015B48C /* OtherCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ED0683FA1E5862D60015B48C /* AdapiveLayoutTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdapiveLayoutTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0683FA1E5862D60015B48C /* AdaptiveLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdaptiveLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0683FD1E5862D60015B48C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED0683FF1E5862D60015B48C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED0684021E5862D70015B48C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED0684041E5862D70015B48C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED0684071E5862D70015B48C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED0684091E5862D70015B48C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED06840F1E587A8B0015B48C /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		ED0684111E587AC00015B48C /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		ED0684131E587C2D0015B48C /* OtherCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +52,7 @@
 		ED0683FB1E5862D60015B48C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED0683FA1E5862D60015B48C /* AdapiveLayoutTest.app */,
+				ED0683FA1E5862D60015B48C /* AdaptiveLayoutDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +62,9 @@
 			children = (
 				ED0683FD1E5862D60015B48C /* AppDelegate.swift */,
 				ED0683FF1E5862D60015B48C /* ViewController.swift */,
+				ED06840F1E587A8B0015B48C /* CollectionViewController.swift */,
+				ED0684131E587C2D0015B48C /* OtherCollectionViewController.swift */,
+				ED0684111E587AC00015B48C /* TableViewController.swift */,
 				ED0684011E5862D70015B48C /* Main.storyboard */,
 				ED0684041E5862D70015B48C /* Assets.xcassets */,
 				ED0684061E5862D70015B48C /* LaunchScreen.storyboard */,
@@ -67,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED0683F91E5862D20015B48C /* AdapiveLayoutTest */ = {
+		ED0683F91E5862D20015B48C /* AdaptiveLayoutDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED06840C1E5862D70015B48C /* Build configuration list for PBXNativeTarget "AdapiveLayoutTest" */;
+			buildConfigurationList = ED06840C1E5862D70015B48C /* Build configuration list for PBXNativeTarget "AdaptiveLayoutDemo" */;
 			buildPhases = (
 				ED0683F61E5862D20015B48C /* Sources */,
 				ED0683F71E5862D20015B48C /* Frameworks */,
@@ -79,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = AdapiveLayoutTest;
+			name = AdaptiveLayoutDemo;
 			productName = AdapiveLayoutTest;
-			productReference = ED0683FA1E5862D60015B48C /* AdapiveLayoutTest.app */;
+			productReference = ED0683FA1E5862D60015B48C /* AdaptiveLayoutDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ED0683F51E5862D20015B48C /* Build configuration list for PBXProject "AdapiveLayoutTest" */;
+			buildConfigurationList = ED0683F51E5862D20015B48C /* Build configuration list for PBXProject "AdaptiveLayoutDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED0683F91E5862D20015B48C /* AdapiveLayoutTest */,
+				ED0683F91E5862D20015B48C /* AdaptiveLayoutDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0684101E587A8B0015B48C /* CollectionViewController.swift in Sources */,
+				ED0684141E587C2D0015B48C /* OtherCollectionViewController.swift in Sources */,
 				ED0684001E5862D60015B48C /* ViewController.swift in Sources */,
 				ED0683FE1E5862D60015B48C /* AppDelegate.swift in Sources */,
+				ED0684121E587AC00015B48C /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +272,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AdapiveLayoutTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = DavidCrooks.AdapiveLayoutTest;
+				PRODUCT_BUNDLE_IDENTIFIER = DavidCrooks.AdaptiveLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,9 +285,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AdapiveLayoutTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = DavidCrooks.AdapiveLayoutTest;
+				PRODUCT_BUNDLE_IDENTIFIER = DavidCrooks.AdaptiveLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -283,7 +297,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED0683F51E5862D20015B48C /* Build configuration list for PBXProject "AdapiveLayoutTest" */ = {
+		ED0683F51E5862D20015B48C /* Build configuration list for PBXProject "AdaptiveLayoutDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED06840A1E5862D70015B48C /* Debug */,
@@ -292,7 +306,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED06840C1E5862D70015B48C /* Build configuration list for PBXNativeTarget "AdapiveLayoutTest" */ = {
+		ED06840C1E5862D70015B48C /* Build configuration list for PBXNativeTarget "AdaptiveLayoutDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED06840D1E5862D70015B48C /* Debug */,

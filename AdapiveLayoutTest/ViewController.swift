@@ -19,7 +19,18 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let cvc = segue.destination as? CollectionViewController {
+            //configure collection vc      
+        }
+        if let cvc = segue.destination as? OtherCollectionViewController {
+            //configure collection vc
+        }
+        if let tvc = segue.destination as? TableViewController {
+            //configure table vc
+        }
+    }
 
 }
 
