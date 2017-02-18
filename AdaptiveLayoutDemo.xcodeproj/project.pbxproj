@@ -15,6 +15,7 @@
 		ED0684101E587A8B0015B48C /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06840F1E587A8B0015B48C /* CollectionViewController.swift */; };
 		ED0684121E587AC00015B48C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0684111E587AC00015B48C /* TableViewController.swift */; };
 		ED0684141E587C2D0015B48C /* OtherCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0684131E587C2D0015B48C /* OtherCollectionViewController.swift */; };
+		ED0684161E58C15F0015B48C /* AdaptiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0684151E58C15F0015B48C /* AdaptiveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		ED06840F1E587A8B0015B48C /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		ED0684111E587AC00015B48C /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		ED0684131E587C2D0015B48C /* OtherCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherCollectionViewController.swift; sourceTree = "<group>"; };
+		ED0684151E58C15F0015B48C /* AdaptiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdaptiveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				ED0683FD1E5862D60015B48C /* AppDelegate.swift */,
 				ED0683FF1E5862D60015B48C /* ViewController.swift */,
+				ED0684151E58C15F0015B48C /* AdaptiveViewController.swift */,
 				ED06840F1E587A8B0015B48C /* CollectionViewController.swift */,
 				ED0684131E587C2D0015B48C /* OtherCollectionViewController.swift */,
 				ED0684111E587AC00015B48C /* TableViewController.swift */,
@@ -149,6 +152,7 @@
 				ED0684141E587C2D0015B48C /* OtherCollectionViewController.swift in Sources */,
 				ED0684001E5862D60015B48C /* ViewController.swift in Sources */,
 				ED0683FE1E5862D60015B48C /* AppDelegate.swift in Sources */,
+				ED0684161E58C15F0015B48C /* AdaptiveViewController.swift in Sources */,
 				ED0684121E587AC00015B48C /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

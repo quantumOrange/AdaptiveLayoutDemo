@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="nxV-SQ-aHE">
             <objects>
-                <viewController id="G9H-QX-2wa" sceneMemberID="viewController">
+                <viewController id="G9H-QX-2wa" customClass="ViewController" customModule="AdaptiveLayoutDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vzE-hm-CeW"/>
                         <viewControllerLayoutGuide type="bottom" id="91t-I8-kh4"/>
@@ -53,10 +53,10 @@
             </objects>
             <point key="canvasLocation" x="-1466" y="-412"/>
         </scene>
-        <!--View Controller-->
+        <!--Adaptive View Controller-->
         <scene sceneID="WMm-ON-hhW">
             <objects>
-                <viewController id="RBN-Aa-53U" sceneMemberID="viewController">
+                <viewController id="RBN-Aa-53U" customClass="AdaptiveViewController" customModule="AdaptiveLayoutDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Tfj-3p-rVT"/>
                         <viewControllerLayoutGuide type="bottom" id="QH5-iv-Wfc"/>
@@ -115,8 +115,8 @@
         <!--Collection View Controller-->
         <scene sceneID="Ib5-e7-c8M">
             <objects>
-                <collectionViewController id="PS5-vK-qB3" customClass="CollectionViewController" customModule="AdapiveLayoutTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="3OQ-yD-LaH">
+                <collectionViewController id="PS5-vK-qB3" customClass="CollectionViewController" customModule="AdaptiveLayoutDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="3OQ-yD-LaH">
                         <rect key="frame" x="0.0" y="0.0" width="288" height="254"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -149,7 +149,7 @@
         <!--Table View Controller-->
         <scene sceneID="GBK-pW-tih">
             <objects>
-                <tableViewController id="ToB-Ls-jXG" customClass="TableViewController" customModule="AdapiveLayoutTest" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="ToB-Ls-jXG" customClass="TableViewController" customModule="AdaptiveLayoutDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="TNU-hN-WCa">
                         <rect key="frame" x="0.0" y="0.0" width="288" height="254"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -177,8 +177,8 @@
         <!--Other Collection View Controller-->
         <scene sceneID="kCi-dR-CAU">
             <objects>
-                <collectionViewController id="gpQ-ZD-aJB" customClass="OtherCollectionViewController" customModule="AdapiveLayoutTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="ftb-Jm-ngI">
+                <collectionViewController id="gpQ-ZD-aJB" customClass="OtherCollectionViewController" customModule="AdaptiveLayoutDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="ftb-Jm-ngI">
                         <rect key="frame" x="0.0" y="0.0" width="288" height="254"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
