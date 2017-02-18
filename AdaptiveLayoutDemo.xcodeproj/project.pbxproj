@@ -108,6 +108,7 @@
 				TargetAttributes = {
 					ED0683F91E5862D20015B48C = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 84Y3R5UC5Q;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -276,7 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 84Y3R5UC5Q;
 				INFOPLIST_FILE = AdapiveLayoutTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DavidCrooks.AdaptiveLayoutDemo;
@@ -289,7 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 84Y3R5UC5Q;
 				INFOPLIST_FILE = AdapiveLayoutTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DavidCrooks.AdaptiveLayoutDemo;
